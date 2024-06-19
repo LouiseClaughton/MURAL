@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #143055;
+}
+
+@font-face { /* Jacksilver Font */
+    font-family: Jacksilver;
+    src: url('Fonts/jacksilver/Jacksilver.otf');
+}
+
+/* Settings for the horizontally scrolling items (products and follow on the homepage) */
+
+.cover-container {
+    height: 180px;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.cover-item {
+    position: relative;
+    display: inline-block;
+    margin: 8px 8px;
+    box-shadow: 2px 2px 4px #bbb;
+    border-top-right-radius: 4px;
+    width: 116px;
+    height: 158px;
+    vertical-align: bottom;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navigation */
+.nav-link {
+    font-family: Harmattan;
+    font-size: 20px;
+    color: white;
+}
+
+/* Header Section */
+#header {
+    height: 75vh;
+}
+
+/* Text Settings */
+
+#main-title {
+    font-family: Jacksilver;
+    font-size: 128px;
+    color: white;
+}
+
+.body {
+    font-family: Harmattan;
+    font-size: 20px;
+    color: white;
+}
